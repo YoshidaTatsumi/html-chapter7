@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.main-visual {
+	height: 400px;
+	background-image: url(chapter7_exercise/img/mv.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.main-visual-headline {
+	padding: 20px;
+}
+
+main {
+	width: 840px;
+	margin: 50px auto;
+}
+
+.blog-item {
+	border-bottom: 1px solid #f7f7f7;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.blog-item:first-child {
+	padding-top: 0;
+}
